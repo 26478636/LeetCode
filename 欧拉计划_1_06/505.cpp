@@ -26,6 +26,7 @@ int main(){
             ans+=num[1]+num[0]+num[2];
             break;//运用的很巧妙，别忘了
         }else{
+            //要物归原主
             ans+=min(num[i]+num[0]+num[i-1]+num[0],num[1]+num[0]+num[i]+num[1]);
         }
     }
